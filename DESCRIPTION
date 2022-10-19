@@ -1,0 +1,22 @@
+Package: pgTools
+Type: Package
+Title: Functions for Generating PostgreSQL Statements/Scripts
+Version: 1.0.1
+Author: Timothy Conwell
+Maintainer: Timothy Conwell <timconwell@gmail.com>
+Description: Create PostgreSQL statements/scripts from R, optionally executing the SQL statements.
+    Common SQL operations are included, although not every configurable option is available at this time. 
+    SQL output is intended to be compliant with PostgreSQL syntax specifications. PostgreSQL documentation is available here
+    <https://www.postgresql.org/docs/current/index.html>.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  data.table,
+  toolbox
+Imports:
+  DBI,
+  odbc,
+  parallel,
+  stringi
+RoxygenNote: 7.2.0
