@@ -20,3 +20,5 @@ Imports:
   parallel,
   stringi
 RoxygenNote: 7.2.0
+URL: https://github.com/tconwell/pgTools
+BugReports: https://github.com/tconwell/pgTools/issues
