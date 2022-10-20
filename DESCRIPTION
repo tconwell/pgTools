@@ -8,7 +8,7 @@ Description: Create PostgreSQL statements/scripts from R, optionally executing t
     Common SQL operations are included, although not every configurable option is available at this time. 
     SQL output is intended to be compliant with PostgreSQL syntax specifications. PostgreSQL documentation is available here
     <https://www.postgresql.org/docs/current/index.html>.
-License: GPL (>= 2)
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Depends: 
